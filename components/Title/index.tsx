@@ -4,7 +4,12 @@ import styles from '../../styles/Main.module.scss'
 const Title = () => {
   return (
     <>
-      <p className={styles.titleTextLarge}>Crane Song</p>
+      <div className={styles.mainContainer}>
+        <div className={styles.textContainer}>
+          <p className={styles.titleTextLarge}>Crane Song</p>
+          <p className={styles.titleTextSmall}>a singer songwriter from CA</p>
+        </div>
+      </div>
     </>
   )
 }
